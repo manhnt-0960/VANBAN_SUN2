@@ -1,0 +1,57 @@
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.font-style-italic {
+  font-style: italic;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-red {
+  color: red;
+}
+
+.ml-1rem {
+  margin-left: 1rem;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.wrapper {
+  padding: 50px;
+}
+
+.header {
+  border-collapse: collapse;  
+}
+
+.header td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 150px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 2rem;
+}
+
+.footer p {
+  font-weight: bold;
+}
+
+.signature {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+}
