@@ -39,12 +39,6 @@
   width: 150px;
 }
 
-.footer {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin-top: 2rem;
-}
-
 .footer p {
   font-weight: bold;
 }
@@ -54,4 +48,20 @@
   z-index: -1;
   top: 50%;
   left: 50%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.width-33 {
+  width: 33%;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
