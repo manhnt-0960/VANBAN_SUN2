@@ -39,6 +39,10 @@
   width: 150px;
 }
 
+.footer {
+  margin-top: 2rem;
+}
+
 .footer p {
   font-weight: bold;
 }
