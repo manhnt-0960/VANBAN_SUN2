@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .font-weight-bold {
@@ -27,16 +27,23 @@ body {
 }
 
 .wrapper {
-  padding: 50px;
+  padding: 50px 100px;
 }
 
 .header {
   border-collapse: collapse;  
 }
 
-.header td {
-  padding: 10px;
-  border: 1px solid black;
+.px-30 {
+  padding: 0 30px;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.header p {
+  margin: 8px 0;
 }
 
 .logo {
