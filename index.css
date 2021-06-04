@@ -30,6 +30,10 @@ body {
   padding: 50px 100px;
 }
 
+.header td {
+  border: 1px solid #000000;
+}
+
 .header {
   border-collapse: collapse;  
 }
@@ -38,8 +42,12 @@ body {
   padding: 0 30px;
 }
 
+.px-5 {
+  padding-left: 5px;
+}
+
 .margin-0 {
-  margin: 0;
+  margin: 10px 0;
 }
 
 .header p {
@@ -74,4 +82,9 @@ body {
 .signature-wrapper {
   display: inline-block;
   width: 33%;
+}
+
+ol.agreement>li::marker {
+  font-size: 24px;
+  font-weight: bold;
 }
